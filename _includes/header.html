@@ -56,6 +56,14 @@
           </li>
           {% endif %}
           {% endfor %}
+          <li class="nav-item {% if page.title == p.title %}active{% endif %}">
+            <a class="nav-link" href="https://guzpenha.github.io/guzblog/assets/pdf/vitae.pdf">
+              vitae
+              {% if page.title == p.title %}
+              <span class="sr-only"  target="_blank">(current)</span>
+              {% endif %}
+            </a>
+        </li>
         </ul>
       </div>
     </div>
