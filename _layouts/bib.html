@@ -10,6 +10,9 @@
     <abbr class="badge">{{entry.abbr}}</abbr>
     {% endif %}
   {% endif %}
+  {% if entry.tag %}
+  <span class="award badge">{{entry.tag}}</span>
+  {% endif %}
   </div>
 
   <div id="{{entry.key}}" class="col-sm-8">
@@ -55,11 +58,12 @@
       {% if entry.type == "article" %}
         <em>{{entry.journal}}</em>
       {% elsif entry.type == "inproceedings" %}
-        <em>In {{entry.booktitle}}</em>
+        <!-- <em>In {{entry.booktitle}}</em> -->
+        <em>{{entry.booktitle}}</em>
       {% endif %}
-      {% if entry.year %}
+      <!-- {% if entry.year %}
         {{entry.year}}
-      {% endif %}
+      {% endif %} -->
       </div>
     {% endif %}
 

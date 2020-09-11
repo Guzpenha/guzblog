@@ -1,24 +1,21 @@
 ---
 layout: about
-title: about
+title: Gustavo Penha
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-news: true  # includes a list of news items
+  image: delft_green.jpg #eu_barcelona.jpg
+  address:  >
+      <p>📷 I took in Delft, NL</p> 
+    
+news: true
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD candidate at TU Delft on the topic of **neural rankers for conversational search and recommendation** under the supervision of [Claudia Hauff](https://chauff.github.io/){:target="_blank"}.  I have BSc and MSc degrees from the Department of Computer Science (DCC) of UFMG - under the supervision of [Rodrygo Santos](https://homepages.dcc.ufmg.br/~rodrygo/){:target="_blank"}.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+To get an idea of my current research check out some of my recent publications: [MANtIS](https://guzpenha.github.io/MANtIS/){:target="_blank"} a novel dialogue corpus of information-seeking conversations which has a few properties previous datasets lack. We used MANtIS to study how neural rankers for dialogue perform on unseen domains, and how to improve then in the [domain adaptation](https://guzpenha.github.io/guzblog/assets/pdf/Domain_Adaptation_for_CRR_CAIR20.pdf){:target="_blank"} setup. In another work, we showed that by intelligently sorting the training batches we get more effective neural rankers: [curriculum learning for IR](https://arxiv.org/abs/1912.08555){:target="_blank"}. Recently, we reflected on the [challenges]((https://guzpenha.github.io/guzblog/assets/pdf/Challenges_CONVERSE20.pdf){:target="_blank"}) of current offline evaluation schemes for conversational search tasks.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+ I am currently developing a library to conduct experiments with pre-trained transformers, e.g. BERT, for ranking: [**transformer-rankers**](https://guzpenha.github.io/transformer_rankers/){:target="_blank"}. It can be used to train and evaluate a transformer-based model for different ranking tasks, such as passage retrieval, adhoc retrieval and conversation response ranking.
