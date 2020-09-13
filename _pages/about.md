@@ -5,9 +5,9 @@ permalink: /
 
 profile:
   align: right
-  image: delft_green.jpg #eu_barcelona.jpg
+  image: DSCF1350.jpg #eu_barcelona.jpg
   address:  >
-      <p>📷 I took in Delft, NL</p> 
+      <p>📷 Delft, NL</p> 
     
 news: true
 selected_papers: true # includes a list of papers marked as "selected={true}"
