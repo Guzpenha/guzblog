@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: eu_casa_2.jpg #DSCF1350.jpg #eu_barcelona.jpg
+  image: L1020635-4.jpg #eu_casa_2.jpg #DSCF1350.jpg #eu_barcelona.jpg
   address:  >
       <p>📷 Delft, NL</p> 
     
