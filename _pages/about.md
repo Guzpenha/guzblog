@@ -7,16 +7,29 @@ profile:
   align: right
   image: L1040654-4.jpg #L1020635-4.jpg #eu_casa_2.jpg #DSCF1350.jpg #eu_barcelona.jpg
   address:  >
-      <p>📷 Delft, NL</p> 
+      <p> 📷  Delft, NL </p> 
     
 news: true
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true
 ---
 
-I am a PhD candidate at TU Delft :netherlands: on the topic of neural rankers for conversational search and recommendation under the supervision of [Claudia Hauff](https://chauff.github.io/){:target="_blank"}. I have BSc and MSc degrees from the Department of Computer Science of UFMG :brazil:, where I was supervised by [Rodrygo Santos](https://homepages.dcc.ufmg.br/~rodrygo/){:target="_blank"}. I recently (2021) finished a 3 month research internship at Amazon's Alexa Shopping team, with [Eyal](https://scholar.google.com/citations?user=Y7Q_6hAAAAAJ&hl=en){:target="_blank"} and [Vanessa](https://scholar.google.com/citations?user=YCU2cT0AAAAJ&hl=en).
+I am a PhD candidate at TU Delft on the topic of conversational search and recommendation under the supervision of [Claudia Hauff](https://chauff.github.io/){:target="_blank"}. I have BSc and MSc degrees from the department of Computer Science of UFMG, where I was supervised by [Rodrygo Santos](https://homepages.dcc.ufmg.br/~rodrygo/){:target="_blank"}. I worked as a data scientist for 3 years in Hekima, which was later [bought by iFood](https://www.zdnet.com/article/brazilian-unicorn-ifood-announces-acqui-hire-to-boost-ai-talent-base/){:target="_blank"}. I recently interned at Amazon's Alexa Shopping team, with [Eyal](https://scholar.google.com/citations?user=Y7Q_6hAAAAAJ&hl=en){:target="_blank"} and [Vanessa](https://scholar.google.com/citations?user=YCU2cT0AAAAJ&hl=en).
 
-I believe my research is best when driven by curiosity. I am intrigued by surprising phenomenas observed in machine learning, and this makes me want to figure out why they happen. For example, when I first read about curriculum learning---a technique inspired by human learning in which you change the order of the training batches so that easy instances come first than hard ones---I could not really grasp why this technique work in the context of training neural networks. This lead me to try to apply this to the topic of my PhD, which resulted in our paper [curriculum learning for IR](https://arxiv.org/abs/1912.08555){:target="_blank"}. After conducting empirical work in the Information Retrieval (IR) domain and thinking about this problem for a while, my intuitive explanation for why curriculum learning works here is that it acts as a filter for batches with uninformative instances: less iterations are spent on 'easy' instances and more iterations are spent on the 'difficult' ones. The study on curriculum learning is one of the ealier papers of my PhD, below you can find a list of selected publications. If you prefer you can also check my [google scholar](https://scholar.google.com/citations?user=kfDXd2MAAAAJ) or my 1-page [CV](https://guzpenha.github.io/guzblog/assets/pdf/vitae.pdf).
+My main research interests in the fields of NLP and IR are:
+
+- Improving neural ranking models
+- Understanding model behaviour
+- Conversational search evaluation
+
+<!-- I believe my research is best when driven by curiosity. I am intrigued by surprising phenomenas observed in machine learning, and this makes me want to figure out why they happen. For example, when I first read about curriculum learning---a technique inspired by human learning in which you change the order of the training batches so that easy instances come first than hard ones---I could not really grasp why this technique work in the context of training neural networks. This lead me to try to apply this to the topic of my PhD, which resulted in our paper [curriculum learning for IR](https://arxiv.org/abs/1912.08555){:target="_blank"}. After conducting empirical work in the Information Retrieval (IR) domain and thinking about this problem for a while, my intuitive explanation for why curriculum learning works here is that it acts as a filter for batches with uninformative instances: less iterations are spent on 'easy' instances and more iterations are spent on the 'difficult' ones. The study on curriculum learning is one of the ealier papers of my PhD, below you can find a list of selected publications. -->
+
+
+__I am looking for research internship posistions for 2022 in the fields of NLP, IR and ML__. You can find a list of selected publications below, or all of them on my [google scholar](https://scholar.google.com/citations?user=kfDXd2MAAAAJ).
+
+
+
+<!-- [1-page CV](https://guzpenha.github.io/guzblog/assets/pdf/vitae.pdf). -->
 
 <!-- Label smoothing. -->
 
