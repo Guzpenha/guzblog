@@ -19,7 +19,7 @@ I am a PhD candidate at TU Delft on the topic of conversational search and recom
 My main research interests in the fields of NLP and IR are:
 
 - Improving neural ranking models
-- Understanding model behaviour
+- Understanding model behavior
 - Conversational search evaluation
 
 <!-- I believe my research is best when driven by curiosity. I am intrigued by surprising phenomenas observed in machine learning, and this makes me want to figure out why they happen. For example, when I first read about curriculum learning---a technique inspired by human learning in which you change the order of the training batches so that easy instances come first than hard ones---I could not really grasp why this technique work in the context of training neural networks. This lead me to try to apply this to the topic of my PhD, which resulted in our paper [curriculum learning for IR](https://arxiv.org/abs/1912.08555){:target="_blank"}. After conducting empirical work in the Information Retrieval (IR) domain and thinking about this problem for a while, my intuitive explanation for why curriculum learning works here is that it acts as a filter for batches with uninformative instances: less iterations are spent on 'easy' instances and more iterations are spent on the 'difficult' ones. The study on curriculum learning is one of the ealier papers of my PhD, below you can find a list of selected publications. -->
