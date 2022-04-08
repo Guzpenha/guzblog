@@ -15,7 +15,7 @@ social: true
 
 I am a researcher in the field of information retrieval, interested in machine learning, ranking models, recommender systems, and natural language processing. I am currently at the fourth year of my PhD at TU Delft on the topic of conversational search and recommendation, under the supervision of [Claudia Hauff](https://chauff.github.io/){:target="_blank"}. 
 
-I have BSc and MSc degrees from the department of Computer Science of UFMG, where I was supervised by [Rodrygo Santos](https://homepages.dcc.ufmg.br/~rodrygo/){:target="_blank"}. I worked as a data scientist for 3 years in Hekima, which was later bought by [iFood to boost AI talent base](https://www.zdnet.com/article/brazilian-unicorn-ifood-announces-acqui-hire-to-boost-ai-talent-base/){:target="_blank"}. 
+I have BSc and MSc degrees from the department of Computer Science of UFMG, where I was supervised by [Rodrygo Santos](https://homepages.dcc.ufmg.br/~rodrygo/){:target="_blank"}. I worked as a data scientist for 3 years in Hekima, which was later bought by [iFood to boost their AI talent base](https://www.zdnet.com/article/brazilian-unicorn-ifood-announces-acqui-hire-to-boost-ai-talent-base/){:target="_blank"}. 
 
 
 I am also passionate about photography. Unlike research papers, photographs have no commitment to truth, and to me they serve to fulfill an artistic vision. I am working on my first street photography project, if you are curious check some 🖼️ [here](https://guzpenha.github.io/gallery/){:target="_blank"}.
