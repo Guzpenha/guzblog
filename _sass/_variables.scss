@@ -5,7 +5,7 @@
 
 // Dimensions
 
-$max-content-width: 750px;
+$max-content-width: 720px;
 
 // Colors
 $red-color:           #FF3636 !default;
@@ -25,7 +25,7 @@ $pink-color-light:    #ffdddd !default;
 $yellow-color:        #efcc00 !default;
 
 $grey-color:          #828282 !default;
-$grey-color-light:    lighten($grey-color, 40%);
+$grey-color-light:    lighten($grey-color, 15%);
 $grey-color-dark:     darken($grey-color, 25%);
 
 /* Set theme colors *************************/

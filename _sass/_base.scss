@@ -2,6 +2,59 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+
+// animations
+
+#lottie{
+  background-color:#ffffff;
+  margin-top: -15px;
+  margin-left: -20px;
+  width:  170px;
+  height: 170px;
+  display:block;
+  overflow: hidden;
+  transform: translate3d(0,0,0);
+  text-align: center;
+  opacity: 1;
+}
+
+#lottie2{
+  background-color:#ffffff;
+  margin-top: -15px;
+  margin-left: -20px;
+  width:  170px;
+  height: 170px;
+  display:block;
+  overflow: hidden;
+  transform: translate3d(0,0,0);
+  text-align: center;
+  opacity: 1;
+}
+
+
+mark.query {
+  color:#ff00c0;
+  // font-weight: bolder;
+  background: none;  
+}
+
+mark.red {
+  color:#ff0000;
+  font-weight: bolder;
+  background: none;
+}
+
+mark.relevant {
+  color:#146700;
+  font-weight: bolder;
+  background: none;
+}
+
+mark.notrelevant{
+  color:#494949;
+  background: none;
+}
+
 // Typography
 
 a, table.table a {
@@ -52,7 +105,8 @@ a, table.table a {
 
 @media (min-width: 576px) {
   .profile {
-    width: 35%;
+    text-align: center;
+    width: 29%;
     .address {
       p { display: block; }
     }

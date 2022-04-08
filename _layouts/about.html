@@ -19,6 +19,7 @@ layout: default
       {% if page.profile.address %}
         <div class="address">
           {{ page.profile.address }}
+          {% include social.html %}
         </div>
       {% endif %}
     </div>
@@ -28,9 +29,11 @@ layout: default
       {{ content }}
     </div>
 
-    <!-- {% if page.news %}
+    {% if page.news %}
       {% include news.html %}
-    {% endif %} -->
+    {% endif %}
+
+    {% include interests.html %}  
 
     {% if page.selected_papers %}
       {% include selected_papers.html %}
@@ -38,9 +41,12 @@ layout: default
 
     {% include presentations.html %}  
 
+    {% include academic_services.html %}
+
+    {% include vitae.html %}    
+
     {% if page.social %}
-    <div class="social">
-      {% include social.html %}
+    <div class="social">      
       <div class="contact-note">{{ site.contact_note }}</div>
     </div>
     {% endif %}
