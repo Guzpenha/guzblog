@@ -48,7 +48,7 @@ research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 
 contact_note: PhD candidate at TU Delft | guzpenha10@gmail.com
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: UA-58644058-1 # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -140,7 +140,7 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:  false
+enable_google_analytics:  true
 enable_katex:             true
 enable_mansory:           true
 enable_progressbar:       true
