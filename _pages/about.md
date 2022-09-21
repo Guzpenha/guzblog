@@ -13,11 +13,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true
 ---
 
-I am a researcher in the field of information retrieval, interested in machine learning, ranking models, recommender systems, and natural language processing. I am currently at the fourth year of my PhD at TU Delft on the topic of conversational search and recommendation, under the supervision of [Claudia Hauff](https://chauff.github.io/){:target="_blank"}. 
-
-I have BSc and MSc degrees from the department of Computer Science of UFMG, where I was supervised by [Rodrygo Santos](https://homepages.dcc.ufmg.br/~rodrygo/){:target="_blank"}. I worked as a data scientist for 3 years in Hekima, which was later bought by [iFood to boost their AI talent base](https://www.zdnet.com/article/brazilian-unicorn-ifood-announces-acqui-hire-to-boost-ai-talent-base/){:target="_blank"}.
-
-I am also passionate about photography. I am working on my first photobook, if you are curious check some photos [here](https://guzpenha.github.io/gallery/){:target="_blank"} 🖼️.
+I am a researcher in the field of information retrieval, interested in machine learning, ranking models, recommender systems, and natural language processing. Currently I work as a PhD under the supervision of [Claudia Hauff](https://chauff.github.io/){:target="_blank"} at TU Delft. I had the opportunity of doing research at Amazon and Spotify during research internships. Other than science I am passionate about photography and I am working on my first [photobook](https://guzpenha.github.io/gallery/){:target="_blank"} 🖼️.
+ 
+<!-- I have BSc and MSc degrees from the department of Computer Science of UFMG, where I was supervised by [Rodrygo Santos](https://homepages.dcc.ufmg.br/~rodrygo/){:target="_blank"}. I worked as a data scientist for 3 years in Hekima, which was later bought by [iFood to boost their AI talent base](https://www.zdnet.com/article/brazilian-unicorn-ifood-announces-acqui-hire-to-boost-ai-talent-base/){:target="_blank"}. -->
 
 
 <!-- <a onclick="showExtraText()" id="extraTextButton">[+]</a> -->
