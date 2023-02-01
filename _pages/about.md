@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: L1040654-4.jpg #L1020635-4.jpg #eu_casa_2.jpg #DSCF1350.jpg #eu_barcelona.jpg
+  image: guz_bw_.jpg #L1040654-4.jpg #L1020635-4.jpg #eu_casa_2.jpg #DSCF1350.jpg #eu_barcelona.jpg
   address: >
     
 news: true
@@ -13,7 +13,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true
 ---
 
-I am a researcher in the field of information retrieval, interested in machine learning, ranking models, recommender systems, and natural language processing. Currently I work as a PhD under the supervision of [Claudia Hauff](https://chauff.github.io/){:target="_blank"} at TU Delft. I had the opportunity of doing research at Amazon and Spotify during research internships. Other than science I am passionate about photography and I am working on my first [photobook](https://guzpenha.github.io/gallery/){:target="_blank"} 🖼️.
+I am a research scientist at [Spotify](https://research.atspotify.com/){:target="_blank"} working with search and recommendation. I will soon defend my PhD at TU Delft, under the supervision of Claudia Hauff. Other than science I am passionate about photography and I am working on my first [photobook](https://guzpenha.github.io/gallery/){:target="_blank"} 🖼️.
  
 <!-- I have BSc and MSc degrees from the department of Computer Science of UFMG, where I was supervised by [Rodrygo Santos](https://homepages.dcc.ufmg.br/~rodrygo/){:target="_blank"}. I worked as a data scientist for 3 years in Hekima, which was later bought by [iFood to boost their AI talent base](https://www.zdnet.com/article/brazilian-unicorn-ifood-announces-acqui-hire-to-boost-ai-talent-base/){:target="_blank"}. -->
 

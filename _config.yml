@@ -36,7 +36,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: Guzpenha # your GitHub user name
+github_username: #Guzpenha # your GitHub user name
 twitter_username: _Guz_ # your Twitter handle
 linkedin_username: gustavo-penha # your LinkedIn user name
 scholar_userid: kfDXd2MAAAAJ # your Google Scholar ID
@@ -47,7 +47,7 @@ publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 
-contact_note: PhD candidate at TU Delft | guzpenha10@gmail.com
+contact_note: Research scientist at Spotify | guzpenha10@gmail.com
 google_analytics: UA-58644058-1 # out your google-analytics code
 
 # -----------------------------------------------------------------------------
