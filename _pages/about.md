@@ -13,7 +13,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true
 ---
 
-I am a research scientist at [Spotify](https://research.atspotify.com/){:target="_blank"} working with search and recommendation. I am also passionate about photography and am working on my first [project](https://guzpenha.github.io/gallery/){:target="_blank"} 🖼️.
+I am a research scientist at [Spotify](https://research.atspotify.com/){:target="_blank"}. My research areas are information retrieval, recommender systems and natural language procesing. I am currently working with (I) the intersection of LLMs and personalization, (II) increasing discoverability in search and recommendation systems, and (III) generative and dense models for IR. Beyond my job I dedicate time to [photography](https://guzpenha.github.io/gallery/){:target="_blank"}.
  
 <!-- I have BSc and MSc degrees from the department of Computer Science of UFMG, where I was supervised by [Rodrygo Santos](https://homepages.dcc.ufmg.br/~rodrygo/){:target="_blank"}. I worked as a data scientist for 3 years in Hekima, which was later bought by [iFood to boost their AI talent base](https://www.zdnet.com/article/brazilian-unicorn-ifood-announces-acqui-hire-to-boost-ai-talent-base/){:target="_blank"}. -->
 
