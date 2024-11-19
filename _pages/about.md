@@ -13,7 +13,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true
 ---
 
-I am a research scientist at [Spotify](https://research.atspotify.com/){:target="_blank"}. My research areas are information retrieval, recommender systems, and natural language processing. I am currently working with (I) the intersection of LLMs and personalization, (II) increasing discoverability in search and recommendation systems, and (III) generative and dense models for IR. 
+I am a research scientist at [Spotify](https://research.atspotify.com/){:target="_blank"}. My research interests are in the fields of information retrieval, recommender systems, natural language processing and machine learning. I am currently working with information-filtering systems that broadly speaking perform recommendation and search. My focus is on improving the relevance matching between users and creators' content, catalog discoverability and also aiding users in their decision-making process. In this context, some techniques and topics that I work with are: dense/generative recommendation & retrieval models, re-rankers, LLMs, alignment, explainability, negative sampling, synthetic data generation, knowledge distillation, Generation-Augmented-Retrieval and Retrieval-Augmented-Generation.
 
 <!-- Beyond my job I dedicate time to [photography](https://guzpenha.github.io/gallery/){:target="_blank"}. -->
  
