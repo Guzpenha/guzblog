@@ -14,5 +14,5 @@ photos:
   - /assets/img/photography/brasil/RODP6388.jpg
   - /assets/img/photography/brasil/RODP6424.jpg
   - /assets/img/photography/brasil/RODP8441.jpg
-  - /assets/img/photography/brasil/RODP8659.jpg
+  # - /assets/img/photography/brasil/RODP8659.jpg
 ---

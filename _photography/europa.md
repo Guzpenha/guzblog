@@ -6,7 +6,7 @@ description:
 img: /assets/img/photography/europa/cover.jpg
 importance: 1
 photos:
-  - /assets/img/photography/europa/cover.jpg
+  # - /assets/img/photography/europa/cover.jpg
   - /assets/img/photography/europa/L1010601.jpg
   - /assets/img/photography/europa/L1050059.jpg
   - /assets/img/photography/europa/L1060492.jpg
