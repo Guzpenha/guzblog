@@ -78,6 +78,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  photography:
+    output: true
+    permalink: /photography/:path/
 
 news_limit: 5
 

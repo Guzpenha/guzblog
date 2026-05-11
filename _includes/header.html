@@ -43,13 +43,13 @@
           </li>
           {% endif %}
           <!-- Other pages -->
-          {% assign sorted_pages = site.pages | sort: "title" %}
+          {% assign sorted_pages = site.pages | sort: "nav_order" %}
           {% for p in sorted_pages %}
           {% if p.nav and p.autogen == nil %}
-          <li class="nav-item {% if page.title == p.title %}active{% endif %}">
+          <li class="nav-item {% if page.title == p.title or p.title == 'photography' and page.collection == 'photography' %}active{% endif %}">
               <a class="nav-link" href="{{ p.url | relative_url }}">
                 {{ p.title }}
-                {% if page.title == p.title %}
+                {% if page.title == p.title or p.title == 'photography' and page.collection == 'photography' %}
                 <span class="sr-only">(current)</span>
                 {% endif %}
               </a>

@@ -329,6 +329,31 @@ footer.sticky-bottom {
   .card img {
     width: 100%;
   }
+  .photo-card-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10rem;
+    background: linear-gradient(135deg, lighten($theme-color, 50%) 0%, mix(#ffffff, $grey-color-light, 75%) 100%);
+    color: $theme-color;
+    font-size: 2.5rem;
+    font-weight: 300;
+  }
+}
+
+// Photography index: three album cards in one row (md+)
+.projects-photography-albums {
+  .photography-album-link {
+    color: $text-color;
+    text-decoration: none;
+    &:hover {
+      color: $theme-color;
+    }
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
 }
 
 

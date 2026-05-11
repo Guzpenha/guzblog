@@ -13,7 +13,7 @@
 
     <!-- Content -->
 
-    <div class="container mt-5">
+    <div class="{% if page.wide_container %}container-fluid photograph-page{% else %}container{% endif %} mt-5">
       {{ content }}
     </div>
 

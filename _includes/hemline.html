@@ -24,16 +24,20 @@
 
 <!-- Project Cards Layout -->
 <script type="text/javascript">
-  // Init Masonry
-  var $grid = $('.grid').masonry({
-    gutter: 10,
-    horizontalOrder: true,
-    itemSelector: '.grid-item',
-  });
-  // layout Masonry after each image loads
-  $grid.imagesLoaded().progress( function() {
-    $grid.masonry('layout');
-  });
+  (function() {
+    var $grids = $('.grid');
+    if (!$grids.length) return;
+    $grids.each(function() {
+      var $grid = $(this).masonry({
+        gutter: 10,
+        horizontalOrder: true,
+        itemSelector: '.grid-item',
+      });
+      $grid.imagesLoaded().progress(function() {
+        $grid.masonry('layout');
+      });
+    });
+  })();
 </script>
 {% endif %}
 

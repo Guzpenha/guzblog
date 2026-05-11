@@ -1,0 +1,105 @@
+---
+layout: default
+---
+{% assign carousel_id = page.title | slugify | prepend: 'pc-' %}
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <article>
+    {% if page.photos and page.photos.size > 0 %}
+
+    <div class="photography-overview js-photography-overview">
+      <p class="text-muted small mb-3 mb-md-4">Click a thumbnail to open the slideshow. Use the side arrows, swipe, or click the left or right side of the image to move between photos.</p>
+      <div class="row photography-overview-grid">
+        {% for p in page.photos %}
+        <div class="col-6 col-sm-4 col-md-3 mb-3">
+          <button type="button"
+                  class="photography-overview-thumb js-photography-open-slide"
+                  data-slide-to="{{ forloop.index0 }}"
+                  aria-label="Open image {{ forloop.index }} of {{ page.photos.size }} in slideshow">
+            <span class="photography-overview-thumb-frame d-block rounded z-depth-1 overflow-hidden">
+              <img src="{{ p | relative_url }}"
+                   alt=""
+                   class="photography-overview-thumb-img w-100"
+                   loading="lazy"
+                   width="400"
+                   height="400">
+            </span>
+          </button>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="photography-slideshow-overlay js-photography-slideshow-overlay"
+         role="dialog"
+         aria-modal="true"
+         aria-label="{{ page.title }} slideshow"
+         hidden>
+
+      <div class="photography-slideshow-overlay-inner d-flex flex-column h-100">
+
+        <div class="photography-slideshow-toolbar d-flex align-items-center justify-content-between py-2 px-2 px-md-3 border-bottom">
+          <button type="button" class="btn btn-sm btn-outline-secondary js-photography-close-slideshow">
+            ← Back to overview
+          </button>
+          {% if page.photos.size > 1 %}
+          <p class="small text-muted mb-0 photography-carousel-counter" aria-live="polite">
+            <span class="js-photo-curr font-weight-medium">1</span> / {{ page.photos.size }}
+          </p>
+          {% endif %}
+        </div>
+
+        <div class="photography-carousel-shell flex-grow-1 photography-flex-min d-flex flex-column">
+          <div id="{{ carousel_id }}"
+               class="carousel slide js-photography-carousel mb-0 photography-carousel-root"
+               data-interval="false"
+               data-wrap="true"
+               data-keyboard="true"
+               data-touch="true"
+               tabindex="0"
+               aria-label="{{ page.title }} photo gallery">
+
+            <div class="carousel-inner photography-carousel-inner">
+              {% for p in page.photos %}
+              <div class="carousel-item{% if forloop.first %} active{% endif %}">
+                <div class="photography-carousel-slide">
+                  <img src="{{ p | relative_url }}"
+                       alt="{{ page.title }}, image {{ forloop.index }} of {{ page.photos.size }}"
+                       class="photograph-carousel-img rounded z-depth-1"/>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+
+            {% if page.photos.size > 1 %}
+            <a class="carousel-control-prev photography-carousel-control" href="#{{ carousel_id }}" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous image</span>
+            </a>
+            <a class="carousel-control-next photography-carousel-control" href="#{{ carousel_id }}" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next image</span>
+            </a>
+            {% endif %}
+          </div>
+
+          {% if page.photos.size > 1 %}
+          <p class="text-center text-muted small py-2 mb-0 photography-carousel-hint d-none d-sm-block px-2">
+            Click the left or right side of the photo to go back or forward. Arrow keys work when the gallery is focused.
+          </p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+    {% else %}
+    {{ content }}
+    {% endif %}
+  </article>
+
+</div>

@@ -21,6 +21,178 @@
   max-width: $max-content-width;
 }
 
+.photography-flex-min {
+  min-height: 0;
+  min-width: 0;
+}
+
+// Fullscreen slideshow (below fixed navbar)
+.photography-slideshow-overlay {
+  position: fixed;
+  top: 56px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1040;
+  background: #ffffff;
+  // Slides sit below the fixed navbar; less vertical chrome than the main page (no footer band)
+  --photograph-viewport-chrome: 6.5rem;
+}
+
+.photography-slideshow-overlay[hidden] {
+  display: none !important;
+}
+
+.photography-slideshow-overlay:not([hidden]) {
+  display: flex;
+  flex-direction: column;
+}
+
+.photography-slideshow-overlay-inner {
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.photography-slideshow-overlay .photography-carousel-shell {
+  flex: 1 1 auto;
+}
+
+.photography-slideshow-overlay .photography-carousel-root {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.photography-slideshow-overlay .photography-carousel-inner {
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+body.photography-slideshow-open {
+  overflow: hidden;
+}
+
+.container-fluid.photograph-page .photography-overview-thumb {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+}
+
+.container-fluid.photograph-page .photography-overview-thumb:hover .photography-overview-thumb-img {
+  opacity: 0.9;
+}
+
+.container-fluid.photograph-page .photography-overview-thumb:focus {
+  outline: 2px solid $theme-color;
+  outline-offset: 2px;
+}
+
+.container-fluid.photograph-page .photography-overview-thumb-frame {
+  aspect-ratio: 1;
+  background: mix(#ffffff, $grey-color-light, 60%);
+}
+
+.container-fluid.photograph-page .photography-overview-thumb-img {
+  height: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+  transition: opacity 0.15s ease;
+}
+
+// Wide photography galleries: use full viewport width (see `wide_container` page front matter)
+.container-fluid.photograph-page {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: max(0.75rem, env(safe-area-inset-left, 0px));
+  padding-right: max(0.75rem, env(safe-area-inset-right, 0px));
+  // Room for fixed top nav (~56px) + fixed footer + body padding (~70px) + margin
+  --photograph-viewport-chrome: 9.5rem;
+
+  // Each image fits within the visible viewport (width and height), letterboxed as needed
+  .photo-viewport-fit {
+    min-height: calc(100vh - var(--photograph-viewport-chrome));
+    min-height: calc(100dvh - var(--photograph-viewport-chrome));
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .photograph-large {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: calc(100vh - var(--photograph-viewport-chrome));
+    max-height: calc(100dvh - var(--photograph-viewport-chrome));
+    object-fit: contain;
+    display: block;
+  }
+
+  // Bootstrap carousel: one slide at a time, same viewport-fit sizing
+  .photography-carousel-inner {
+    min-height: calc(100vh - var(--photograph-viewport-chrome));
+    min-height: calc(100dvh - var(--photograph-viewport-chrome));
+  }
+
+  .photography-carousel-slide {
+    box-sizing: border-box;
+    min-height: calc(100vh - var(--photograph-viewport-chrome));
+    min-height: calc(100dvh - var(--photograph-viewport-chrome));
+    padding: 0.5rem 2.75rem;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    @media (max-width: 575.98px) {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+
+  .photograph-carousel-img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: calc(100vh - var(--photograph-viewport-chrome) - 1rem);
+    max-height: calc(100dvh - var(--photograph-viewport-chrome) - 1rem);
+    object-fit: contain;
+    display: block;
+    pointer-events: none;
+  }
+
+  .photography-carousel-control {
+    width: 10%;
+    min-width: 2.25rem;
+    opacity: 0.55;
+
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+  }
+
+  .photography-carousel-shell .carousel-control-prev-icon,
+  .photography-carousel-shell .carousel-control-next-icon {
+    filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.7));
+    background-size: 100% 100%;
+  }
+
+  .photography-carousel-hint {
+    max-width: 36rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 // Profile
 .profile {
   img {
